@@ -1,0 +1,132 @@
+@media(max-width: 767px){
+    /*-----------------------------------------index.html---------------------------------*/
+    /*----------------navbar---------------*/
+    nav{
+    background-color: #265bfb;
+    }
+    .navbar-light .navbar-toggler {
+    color: #265bfb;
+    border-color: #fff;
+    }
+    .navbar-toggler {
+    background-color: #fff;
+    border: 1px solid #fff;
+    margin-left: 0.5rem;
+    }
+    /*---------------------modern design-------------------*/
+    .design-size {
+    font-size: 2rem;
+    }
+    .btn-morden{
+    display: block;
+    margin: 1rem auto 1rem;
+    }
+    /*-------------development--------------*/
+    .image-background{
+    left: 0px;
+    width: 100%;
+    overflow: hidden;
+    }
+    /*---------------software-------------*/
+    .soft-skills li{
+    text-align: center;
+    }
+    /*---------------how it work-----------------*/
+    .work-para{
+    padding: 0px 1rem;
+    }
+    /*-----------customer say----------------*/
+    #customers-say .customer-think::after{
+    content: "";
+    }
+    /*--------------footer----------------*/
+    .btn-app{
+    padding: 0.8rem 5rem;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    }
+    .btn-play{
+    padding: 0.8rem 4rem;
+    margin-left: 0rem;
+    margin-top: 1rem;
+    }
+    .footer-ul {
+    text-align: center;
+    }
+    .footer-ul li:not(:last-child) a {
+    margin-right: 0rem;
+    }
+    .footer-ul-2 li:nth-child(2) {
+    margin-top: 0rem;
+    }
+    /*------------------------bottom to top-------------------------*/
+    #button {
+    bottom: 6%;
+    }
+    }
+    @media(min-width: 500px) and (max-width: 575px){
+    /* development start */
+    .icon-block{
+    top: 0px;
+    }
+    .development .design-box .icon-block i{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 50px;
+    }
+    /* development end */
+    /* software start */
+    .software.software-bg .soft-skills li{
+    text-align: start;
+    }
+    /* software end */
+    }
+    @media(min-width: 768px) and (max-width: 991px){
+    /* navbar start */
+    nav{
+    background-color: #265bfb;
+    }
+    /* navbar end */
+    /* development */
+    .development.software .col-12.col-lg-4:nth-child(3) .design-box .icon-block{
+    top: 0px;
+    }
+    .development.software .col-12.col-lg-4:nth-child(3) .design-box .icon-block i{
+    width: 85px;
+    height: 85px;
+    line-height: 85px;
+    font-size: 46px;
+    }
+    .image-background{
+    width: 19rem;
+    height: 23rem;
+    }
+    /* development */
+    /* how it work start */
+    .work-para {
+    padding: 0px 60px;
+    }
+    /* how it work end */
+    /* footer start */
+    footer .bg-color .col-12.col-md-7.col-lg-5{
+    text-align: center;
+    }
+    footer .bg-color .col-12.col-md-5.col-lg-2.m-0.mt-md-5{
+    text-align: center;
+    }
+    /* footer end */
+    }
+    @media(min-width: 992px) and (max-width: 1199px){
+    /* development start */
+    .image-background {
+    left: -1rem;
+    width: 21rem;
+    }
+    /* development end */
+    /* question asked start */
+    .work-para {
+    padding: 0px 200px;
+    }
+    /* question asked end */
+    }
